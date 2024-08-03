@@ -1,11 +1,21 @@
-# ASE-dual-blind
-# dual-blind
-This is the open source code of paper "CMA: Collaborative Microservice Autoscaling Based on
-Reinforcement Learning in Edge-Cloud Environment"
+# ICSE Conference Code Review
 
-Directory Structure:
-"algos" and "onpolicy" folders store algorithm-related files.
-runner is the entry point for functions. Within it, GMPERunner().train() is used to train the algorithm, and GMPERunner().eval_cma() is used to evaluate the algorithm.
-Potential Issues:
-1. Incorrect directory structure.
-2. Issues caused by path changes.
+This project contains the implementation of various algorithms and models for the ICSE conference code review.
+
+## Project Structure
+
+### Runner
+
+The `runner` file serves as the entry point for running the project. It provides the main execution flow and orchestrates the different components.
+
+### Algorithms
+
+The `algos` folder contains the implementation of the algorithms. This includes:
+
+- Spatio-temporal network
+- Collaborative autoscaling approach
+
+### Load Balancing
+
+The `load_balancing.py` file implements the load balancing algorithm, which optimizes traffic distribution within the system.
+
